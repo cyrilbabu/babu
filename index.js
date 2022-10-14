@@ -22,7 +22,7 @@ document.querySelector("button").addEventListener("click",function (){
 
   window.setInterval(function() {
     document.querySelector("h1").remove();
-    document.querySelectorAll("div")[1].innerHTML = "<img src='images/gf1.jpeg'>";
+    document.querySelectorAll("div")[1].innerHTML = "<img src='images/gf2.jpeg'>";
     song.play();
   }, 7000);
 
