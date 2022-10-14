@@ -5,6 +5,7 @@ document.querySelector("button").addEventListener("click",function (){
   document.querySelector("h1").style.color = "white";
   document.querySelector("h1").innerHTML = "❤️THIS❤️ <br> IS <br> FOR YOU <br> 🫵";
   document.querySelector("button").remove();
+  document.querySelectorAll("div")[1].innerHTML = "<img src='images/lines.gif'>";
 
 
   window.setInterval(function() {
